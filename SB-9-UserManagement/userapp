@@ -1,0 +1,168 @@
+2025-02-28 15:38:26.221  INFO 14136 --- [restartedMain] com.Sb9UserManagementApplication         : Starting Sb9UserManagementApplication using Java 1.8.0_202 on User with PID 14136 (C:\Users\Sakshi Bhaleghare\OneDrive\Desktop\Spring Boot\SB-9-UserManagement\target\classes started by Sakshi Bhaleghare in C:\Users\Sakshi Bhaleghare\OneDrive\Desktop\Spring Boot\SB-9-UserManagement)
+2025-02-28 15:38:26.233  INFO 14136 --- [restartedMain] com.Sb9UserManagementApplication         : No active profile set, falling back to default profiles: default
+2025-02-28 15:38:26.345  INFO 14136 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-28 15:38:26.345  INFO 14136 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-28 15:38:30.337  INFO 14136 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-28 15:38:31.487  INFO 14136 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1127 ms. Found 2 JPA repository interfaces.
+2025-02-28 15:38:32.456  INFO 14136 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8005 (http)
+2025-02-28 15:38:32.470  INFO 14136 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-28 15:38:32.470  INFO 14136 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2025-02-28 15:38:32.629  INFO 14136 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-28 15:38:32.631  INFO 14136 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 6284 ms
+2025-02-28 15:38:32.955  INFO 14136 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-02-28 15:38:33.285  INFO 14136 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-02-28 15:38:34.065  INFO 14136 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-28 15:38:34.157  INFO 14136 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2025-02-28 15:38:34.417  INFO 14136 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-02-28 15:38:34.707  INFO 14136 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2025-02-28 15:38:36.272  INFO 14136 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-02-28 15:38:36.286  INFO 14136 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-28 15:38:37.057  WARN 14136 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-28 15:38:37.400  INFO 14136 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2025-02-28 15:38:37.519  INFO 14136 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2025-02-28 15:38:37.807  WARN 14136 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-02-28 15:38:38.189  INFO 14136 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8005 (http) with context path ''
+2025-02-28 15:38:38.191  INFO 14136 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2025-02-28 15:38:38.217  INFO 14136 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2025-02-28 15:38:38.285  INFO 14136 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2025-02-28 15:38:38.528  INFO 14136 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_1
+2025-02-28 15:38:38.531  INFO 14136 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingDELETE_1
+2025-02-28 15:38:38.538  INFO 14136 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_2
+2025-02-28 15:38:38.540  INFO 14136 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_3
+2025-02-28 15:38:38.544  INFO 14136 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_4
+2025-02-28 15:38:38.548  INFO 14136 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_5
+2025-02-28 15:38:38.552  INFO 14136 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_6
+2025-02-28 15:38:38.555  INFO 14136 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_7
+2025-02-28 15:38:38.557  INFO 14136 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_8
+2025-02-28 15:38:38.557  INFO 14136 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_9
+2025-02-28 15:38:38.557  INFO 14136 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_10
+2025-02-28 15:38:38.562  INFO 14136 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_11
+2025-02-28 15:38:38.562  INFO 14136 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_12
+2025-02-28 15:38:38.570  INFO 14136 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_13
+2025-02-28 15:38:38.573  INFO 14136 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_14
+2025-02-28 15:38:38.575  INFO 14136 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_15
+2025-02-28 15:38:38.579  INFO 14136 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_16
+2025-02-28 15:38:38.582  INFO 14136 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_17
+2025-02-28 15:38:38.586  INFO 14136 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_18
+2025-02-28 15:38:38.589  INFO 14136 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_19
+2025-02-28 15:38:38.709  INFO 14136 --- [restartedMain] com.Sb9UserManagementApplication         : Started Sb9UserManagementApplication in 13.202 seconds (JVM running for 14.974)
+2025-02-28 15:39:25.211  INFO 14136 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-02-28 15:39:25.509  INFO 14136 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-28 15:39:25.517  INFO 14136 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-02-28 15:39:25.525  INFO 14136 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-02-28 16:08:18.067  INFO 16860 --- [restartedMain] com.Sb9UserManagementApplication         : Starting Sb9UserManagementApplication using Java 1.8.0_202 on User with PID 16860 (C:\Users\Sakshi Bhaleghare\OneDrive\Desktop\Spring Boot\SB-9-UserManagement\target\classes started by Sakshi Bhaleghare in C:\Users\Sakshi Bhaleghare\OneDrive\Desktop\Spring Boot\SB-9-UserManagement)
+2025-02-28 16:08:18.071  INFO 16860 --- [restartedMain] com.Sb9UserManagementApplication         : No active profile set, falling back to default profiles: default
+2025-02-28 16:08:18.128  INFO 16860 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-28 16:08:18.128  INFO 16860 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-28 16:08:20.657  INFO 16860 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-28 16:08:21.501  INFO 16860 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 826 ms. Found 2 JPA repository interfaces.
+2025-02-28 16:08:22.268  INFO 16860 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8005 (http)
+2025-02-28 16:08:22.278  INFO 16860 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-28 16:08:22.278  INFO 16860 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2025-02-28 16:08:22.399  INFO 16860 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-28 16:08:22.403  INFO 16860 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4275 ms
+2025-02-28 16:08:22.641  INFO 16860 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-02-28 16:08:22.815  INFO 16860 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-02-28 16:08:23.551  INFO 16860 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-28 16:08:23.614  INFO 16860 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2025-02-28 16:08:23.793  INFO 16860 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-02-28 16:08:23.926  INFO 16860 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2025-02-28 16:08:24.744  INFO 16860 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-02-28 16:08:24.750  INFO 16860 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-28 16:08:25.340  WARN 16860 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-28 16:08:25.589  INFO 16860 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2025-02-28 16:08:25.694  INFO 16860 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2025-02-28 16:08:25.846  WARN 16860 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-02-28 16:08:26.267  INFO 16860 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8005 (http) with context path ''
+2025-02-28 16:08:26.269  INFO 16860 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2025-02-28 16:08:26.294  INFO 16860 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2025-02-28 16:08:26.345  INFO 16860 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2025-02-28 16:08:26.560  INFO 16860 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_1
+2025-02-28 16:08:26.562  INFO 16860 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_2
+2025-02-28 16:08:26.566  INFO 16860 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingDELETE_1
+2025-02-28 16:08:26.568  INFO 16860 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_3
+2025-02-28 16:08:26.570  INFO 16860 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_4
+2025-02-28 16:08:26.574  INFO 16860 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_5
+2025-02-28 16:08:26.577  INFO 16860 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_6
+2025-02-28 16:08:26.581  INFO 16860 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_7
+2025-02-28 16:08:26.584  INFO 16860 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_8
+2025-02-28 16:08:26.586  INFO 16860 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_9
+2025-02-28 16:08:26.586  INFO 16860 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_10
+2025-02-28 16:08:26.586  INFO 16860 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_11
+2025-02-28 16:08:26.591  INFO 16860 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_12
+2025-02-28 16:08:26.596  INFO 16860 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_13
+2025-02-28 16:08:26.598  INFO 16860 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_14
+2025-02-28 16:08:26.600  INFO 16860 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_15
+2025-02-28 16:08:26.600  INFO 16860 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_16
+2025-02-28 16:08:26.600  INFO 16860 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_17
+2025-02-28 16:08:26.600  INFO 16860 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_18
+2025-02-28 16:08:26.600  INFO 16860 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_19
+2025-02-28 16:08:26.677  INFO 16860 --- [restartedMain] com.Sb9UserManagementApplication         : Started Sb9UserManagementApplication in 9.057 seconds (JVM running for 10.014)
+2025-02-28 16:08:42.699  INFO 16860 --- [http-nio-8005-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-28 16:08:42.702  INFO 16860 --- [http-nio-8005-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-02-28 16:08:42.703  INFO 16860 --- [http-nio-8005-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-02-28 16:08:42.822  INFO 16860 --- [http-nio-8005-exec-1] com.Controller.UserController            : I am in ControllerUser(uid=0, uname=ram, uemail=ram@g.com, upassword=ram123, uaddress=pune, gender=M, date=null)
+2025-02-28 16:08:43.158  INFO 16860 --- [http-nio-8005-exec-1] com.Service.UserServiceIMPL              : User added
+2025-02-28 16:08:48.284  INFO 16860 --- [http-nio-8005-exec-1] com.Service.UserServiceIMPL              : Mail Sended
+2025-02-28 16:09:26.744  INFO 16860 --- [http-nio-8005-exec-2] com.Controller.UserController            : UserDTO data:[UserDTO(uid=2, uname=nikita, uemail=nikita@g.com, gender=F, date=2025-02-26), UserDTO(uid=3, uname=pawan, uemail=pawan@g.com, gender=m, date=2025-02-26), UserDTO(uid=13, uname=ram, uemail=ram@g.com, gender=M, date=2025-02-28)]
+2025-02-28 16:10:11.483  INFO 16860 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-02-28 16:10:11.831  INFO 16860 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-28 16:10:11.841  INFO 16860 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-02-28 16:10:11.859  INFO 16860 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-02-28 16:15:25.022  INFO 3708 --- [restartedMain] com.Sb9UserManagementApplication         : Starting Sb9UserManagementApplication using Java 1.8.0_202 on User with PID 3708 (C:\Users\Sakshi Bhaleghare\OneDrive\Desktop\Spring Boot\SB-9-UserManagement\target\classes started by Sakshi Bhaleghare in C:\Users\Sakshi Bhaleghare\OneDrive\Desktop\Spring Boot\SB-9-UserManagement)
+2025-02-28 16:15:25.028  INFO 3708 --- [restartedMain] com.Sb9UserManagementApplication         : No active profile set, falling back to default profiles: default
+2025-02-28 16:15:25.149  INFO 3708 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-28 16:15:25.149  INFO 3708 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-28 16:15:28.570  INFO 3708 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-28 16:15:29.719  INFO 3708 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1123 ms. Found 2 JPA repository interfaces.
+2025-02-28 16:15:30.622  INFO 3708 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8005 (http)
+2025-02-28 16:15:30.642  INFO 3708 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-28 16:15:30.645  INFO 3708 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2025-02-28 16:15:30.799  INFO 3708 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-28 16:15:30.800  INFO 3708 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5650 ms
+2025-02-28 16:15:31.279  INFO 3708 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-02-28 16:15:31.559  INFO 3708 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-02-28 16:15:32.290  INFO 3708 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-28 16:15:32.363  INFO 3708 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2025-02-28 16:15:32.559  INFO 3708 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-02-28 16:15:32.745  INFO 3708 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2025-02-28 16:15:33.911  INFO 3708 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-02-28 16:15:33.930  INFO 3708 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-28 16:15:34.703  WARN 3708 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-28 16:15:35.082  INFO 3708 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2025-02-28 16:15:35.210  INFO 3708 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2025-02-28 16:15:35.429  INFO 3708 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-28 16:15:35.779  INFO 3708 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8005 (http) with context path ''
+2025-02-28 16:15:35.780  INFO 3708 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2025-02-28 16:15:35.801  INFO 3708 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2025-02-28 16:15:35.887  INFO 3708 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2025-02-28 16:15:36.209  INFO 3708 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_1
+2025-02-28 16:15:36.215  INFO 3708 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingDELETE_1
+2025-02-28 16:15:36.219  INFO 3708 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_2
+2025-02-28 16:15:36.225  INFO 3708 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_3
+2025-02-28 16:15:36.228  INFO 3708 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_4
+2025-02-28 16:15:36.231  INFO 3708 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_5
+2025-02-28 16:15:36.231  INFO 3708 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_6
+2025-02-28 16:15:36.231  INFO 3708 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_7
+2025-02-28 16:15:36.231  INFO 3708 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_8
+2025-02-28 16:15:36.240  INFO 3708 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_9
+2025-02-28 16:15:36.241  INFO 3708 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_10
+2025-02-28 16:15:36.244  INFO 3708 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_11
+2025-02-28 16:15:36.245  INFO 3708 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_12
+2025-02-28 16:15:36.245  INFO 3708 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_13
+2025-02-28 16:15:36.251  INFO 3708 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_14
+2025-02-28 16:15:36.261  INFO 3708 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_15
+2025-02-28 16:15:36.263  INFO 3708 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_16
+2025-02-28 16:15:36.265  INFO 3708 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_17
+2025-02-28 16:15:36.268  INFO 3708 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_18
+2025-02-28 16:15:36.270  INFO 3708 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_19
+2025-02-28 16:15:36.363  INFO 3708 --- [restartedMain] com.Sb9UserManagementApplication         : Started Sb9UserManagementApplication in 12.071 seconds (JVM running for 13.652)
+2025-02-28 16:18:12.818  INFO 3708 --- [http-nio-8005-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-28 16:18:12.819  INFO 3708 --- [http-nio-8005-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-02-28 16:18:12.823  INFO 3708 --- [http-nio-8005-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2025-02-28 16:18:13.133  INFO 3708 --- [http-nio-8005-exec-1] com.Service.UserServiceIMPL              : User deleted
+2025-02-28 16:18:20.548  INFO 3708 --- [http-nio-8005-exec-3] com.Controller.UserController            : UserDTO data:[UserDTO(uid=2, uname=nikita, uemail=nikita@g.com, gender=F, date=2025-02-26), UserDTO(uid=3, uname=pawan, uemail=pawan@g.com, gender=m, date=2025-02-26)]
+2025-02-28 16:19:12.625  INFO 3708 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-02-28 16:19:12.821  INFO 3708 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-28 16:19:12.835  INFO 3708 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-02-28 16:19:12.847  INFO 3708 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
